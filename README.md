@@ -27,11 +27,11 @@ Job_Aba 봇은 크롤링과 RestAPI를 이용한 취업정보 봇입니다.<br>
 
 `job_REST.py` - RestAPI를 사용하여 잡코리아의 크롤링 정보 JSON으로 저장
 
-`jobkorea_crawling_backend.py` -  잡코리아에서 백엔드 키워드로 크롤링 수행
+`jobkorea_crawling_backend.py` -  잡코리아에서 백엔드개발자, 신입, 지역 키워드로 크롤링 수행
 
-`jobkorea_crawling_frontend.py` - 잡코리아에서 프론트엔드 키워드로 크롤링 수행
+`jobkorea_crawling_frontend.py` - 잡코리아에서 프론트엔드,신입, 지역 키워드로 크롤링 수행
 
-`saramin.py` - 사람인에서 백엔드개발자, 신입, 지역, 언어키워드로 크롤링 수행
+`saramin_crawling.py` - 사람인에서 백엔드개발자, 신입, 지역, 언어키워드로 크롤링 수행
 
 ---
 
