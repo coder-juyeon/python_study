@@ -38,10 +38,10 @@ async def on_ready():
 
 @app.command()
 async def 명령어(ctx):
-    message = "잡코리아 백엔드(/백엔드)\n잡코리아 프론트엔드(/프론트엔드)\n사람인(/신입 원하는언어)"
+    message = "잡코리아 백엔드(/백엔드)\n잡코리아 프론트엔드(/프론트엔드)\n사람인(/사람인 원하는언어)"
     await ctx.send(message)
 
-@app.command(name='신입')
+@app.command(name='사람인')
 async def job(ctx, searchText):
     # 정보를 가져와야함
     json_data = saramin.crawling_data(searchText)
