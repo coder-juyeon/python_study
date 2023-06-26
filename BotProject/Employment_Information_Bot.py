@@ -44,7 +44,7 @@ async def 명령어(ctx):
 @app.command(name='사람인')
 async def job(ctx, searchText):
     # 정보를 가져와야함
-    json_data = saramin.crawling_data(searchText)
+    json_data = saramin_crawling.crawling_data(searchText)
     infos = json.loads(json_data)
     messages = []
     index = 0 # Initialize index
