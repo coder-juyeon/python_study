@@ -1,7 +1,7 @@
 import discord
 import requests
 from discord.ext import commands
-import saramin
+import saramin_crawling
 import json
 import asyncio
 
