@@ -1,21 +1,7 @@
 # python_study
 파이썬 크롤링 및 크롤링을 이용한 디스코드 봇 만들기
 
-## 📖 BotProject 파일 설명
-
-`main.py` - 실행 시 봇 가동됨 (봇 TOKEN 기입 필요)
-
-`bot_base/command.py` - 봇 명령어 설정하는 곳
-
-`bot_base/event.py` - 봇 이벤트 설정하는 곳
-
-`persona/__init__.py` - 봇의 페르소나 적용하는 곳
-
-`persona/*.py` - 봇의 페르소나들
-
-`utils.py` - 필요 시 이용할 만한 함수들
-
----
+--
 
 ## 🖥️ 봇 소개
 Job_Aba 봇은 크롤링과 RestAPI를 이용한 취업정보 봇입니다.<br>
@@ -34,6 +20,22 @@ Job_Aba 봇은 크롤링과 RestAPI를 이용한 취업정보 봇입니다.<br>
 <a href="https://github.com/coder-juyeon">@Juyeon</a>, <a href="https://github.com/code-hyun">@Jahyun</a> <br>
 **사용 언어** ``Python``<br><br>
 **사용 라이브러리** ``webdriver`` ``Flask`` ``json`` ``asyncio`` ``discord`` ``requests`` ``selenium``
+
+---
+
+## 📖 BotProject 파일 설명
+
+`main.py` - 실행 시 봇 가동됨 (봇 TOKEN 기입 필요)
+
+`bot_base/command.py` - 봇 명령어 설정하는 곳
+
+`bot_base/event.py` - 봇 이벤트 설정하는 곳
+
+`persona/__init__.py` - 봇의 페르소나 적용하는 곳
+
+`persona/*.py` - 봇의 페르소나들
+
+`utils.py` - 필요 시 이용할 만한 함수들
 
 ---
 
